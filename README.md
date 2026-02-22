@@ -1,6 +1,6 @@
-# Cyber Office: Burnout 2077 ⚡
+# Typing Game ⚡
 
-**Cyber Office: Burnout 2077** is a **neon cyberpunk-themed typing game** where players must respond to incoming “emails” by typing the correct words as fast as possible. Survive the data flood and keep your neural stress levels under control!  
+**Welcome to this typing game!** This game uses the concept of a **Cyber Office** with a **neon cyberpunk theme**, where players must respond to incoming “emails” by typing the correct words as fast as possible. Survive the data flood and keep your neural stress levels under control!  
 
 ---
 
@@ -42,19 +42,4 @@
 
 ---
 
-## 📝 Code Structure
-
-- **index.html** – Single-file game containing:
-  - **HTML elements**: Overlay, HUD, email cards, input field  
-  - **CSS**: Neon/glass style, animations  
-  - **JavaScript**: Game mechanics, score tracking, stress management  
-- **Fonts**: 
-  - `Orbitron` – HUD & futuristic headings  
-  - `JetBrains Mono` – Main text & input  
-
----
-
-## 🎯 Game Logic Overview
-
-- Emails are randomly generated from a **word bank**:
 
