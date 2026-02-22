@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixel Typer</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+   <div id="bg-canvas"></div>
+
+<div id="hud">
+    <div class="stress-label">NEURAL OVERLOAD (STRESS)</div>
+    <div id="stress-container">
+        <div id="stress-fill"></div>
+    </div>
+    <div style="margin-top: 10px; font-size: 0.8rem; color: var(--neon-blue);">
+        TASKS COMPLETED: <span id="score">0</span>
+    </div>
+</div>
+
+<div id="desktop"></div>
+
+<div id="input-container">
+    <input type="text" id="main-input" placeholder="REPLY..." autocomplete="off">
+</div>
+
+<div id="overlay">
+    <h1>CYBER OFFICE</h1>
+    <p style="color: var(--neon-blue); letter-spacing: 2px;">SURVIVE THE DATA FLOOD</p>
+    <button onclick="startGame()">INITIALIZE LOGIN</button>
+</div>
+      <script src="script.js"></script> 
+</body>
+</html>
